@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kevin Perez, PhD — Computational biology and aging</title>
+<meta name="description" content="Kevin Perez, PhD — Research Associate, Institute of Oncology Research (IOR) / Università della Svizzera italiana (USI). Computational biology and aging.">
+<style>
+  :root{
+    --ink:#000;
+    --link:#467886;
+    --border:#9a9a9a;
+    --sheet:#ffffff;
+    --page:#ececea;
+    --fs:14.5px;
+    --font:"Aptos","Segoe UI",system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0;background:var(--page);color:var(--ink);
+    font-family:var(--font);font-size:var(--fs);line-height:1.36;
+    -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+    padding:34px 16px;
+  }
+  .sheet{
+    max-width:900px;margin:0 auto;background:var(--sheet);
+    padding:26px 30px 64px;
+    box-shadow:0 1px 3px rgba(0,0,0,.12),0 12px 40px -20px rgba(0,0,0,.28);
+    border:1px solid #e2e2df;
+  }
+  a{color:var(--link);text-decoration:underline;text-underline-offset:2px}
+  img{display:block}
+  p{margin:0}
+  h2{font-size:var(--fs);font-weight:700;margin:0}
+
+  /* shared 2-column grid (header + body) */
+  .cols{display:grid;grid-template-columns:30% 1fr;column-gap:3.4%}
+
+  /* header */
+  .head-name{font-size:22px;font-weight:400;letter-spacing:.1px}
+  .head-title{font-size:19px;font-weight:400;align-self:center}
+  .head .head-name{align-self:center}
+  hr.rule{border:none;border-top:1px solid var(--ink);margin:7px 0 0}
+
+  /* body */
+  .body{margin-top:22px}
+  .left{text-align:center}
+  .photo{width:132px;height:132px;border-radius:50%;object-fit:cover;object-position:center 22%;margin:0 auto 14px}
+  .left .role{margin-top:2px}
+  .gap{height:14px}
+  .right h2{margin-bottom:1px}
+  .right p{text-align:justify;-webkit-hyphens:auto;hyphens:auto;margin-bottom:14px}
+  .right .sec2{margin-top:12px}
+
+  /* figures */
+  .figs{display:grid;grid-template-columns:repeat(3,1fr);column-gap:8px;margin-top:24px}
+  .figcell{display:flex;flex-direction:column}
+  .figcap{text-align:center;min-height:2.8em;display:flex;align-items:flex-end;justify-content:center;line-height:1.28;margin-bottom:5px}
+  .frame{border:1px solid var(--border);background:#fff;padding:0;overflow:hidden}
+  /*.frame img{width:100%;height:auto;display:block}*/
+  .frame img{width:auto;height:250px;display:block}
+
+  /* research highlights */
+  .hl-h{margin-top:30px}
+  .hl{display:grid;grid-template-columns:repeat(3,1fr);column-gap:34px;margin-top:14px}
+  .cat{margin:0 0 3px}
+  .grp2{margin-top:16px}
+  ol.refs{margin:0;padding-left:1.7em;list-style-position:outside}
+  ol.refs li{padding-left:3px;margin:0 0 1px}
+
+  /* funding / talks / press */
+  .blk-h{margin-top:30px}
+  .row{display:flex;flex-wrap:wrap;align-items:center;margin-top:14px}
+  .funding img.snsf{height:50px;width:auto}
+  .funding img.ior{height:34px;width:auto;margin-left:24px}
+  .talks{gap:16px}
+  .talks img{width:172px;height:auto;border:1px solid #ddd}
+  .press{gap:16px}
+  .press img.tele{height:50px;width:auto}
+  .press img.sift{height:50px;width:auto}
+  .press img.ns{height:50px;width:auto}
+  .press img.lt{height:50px;width:auto}
+  .press img.bio{height:35px;width:auto}
+
+  @media (max-width:720px){
+    body{padding:16px 0}
+    .sheet{padding:22px 20px 48px;border-left:none;border-right:none}
+    .cols{grid-template-columns:1fr;row-gap:6px}
+    .head-title{align-self:auto;margin-top:2px}
+    .figs{grid-template-columns:1fr;row-gap:20px}
+    .figcap{min-height:0}
+    .hl{grid-template-columns:1fr;row-gap:22px}
+  }
+</style>
+</head>
+<body>
+  <div class="sheet">
+
+    <!-- HEADER -->
+    <div class="head cols">
+      <div class="head-name">Kevin Perez, PhD</div>
+      <div class="head-title">Computational biology and aging</div>
+    </div>
+    <hr class="rule">
+
+    <!-- BODY: left identity column + right prose -->
+    <div class="body cols">
+      <div class="left">
+        <img class="photo" src="images/photo.png" alt="Kevin Perez">
+        <div class="role">Research Associate</div>
+        <div>Institute of Oncology Research (IOR)</div>
+        <div>Università della Svizzera italiana (USI)</div>
+        <div class="gap"></div>
+        <div>Via Francesco Chiesa 5,</div>
+        <div>Bellinzona, 6500, Switzerland</div>
+        <div><a href="mailto:kevin.perez@ior.usi.ch">kevin.perez@ior.usi.ch</a></div>
+        <div class="gap"></div>
+        <div><a href="https://scholar.google.fr/citations?user=8prRIW8AAAAJ" target="_blank" rel="noopener">Google Scholar</a></div>
+      </div>
+
+      <div class="right">
+        <h2>Biography</h2>
+        <p>Kevin Perez is a Research Associate at the Institute of Oncology Research (<a href='https://ior.usi.ch/'>IOR</a>) and Università della Svizzera italiana (<a href='https://www.usi.ch/en'>USI</a>), where he leads an <a href='https://www.snf.ch/en'>SNSF</a>-funded program repurposing existing drugs for healthy aging. A computational biologist by training (PhD, <a href='https://u-paris.fr/'>Paris Cité University</a>), he combines machine learning, multi-omics, and lab automation with validation in animal models to find interventions that extend healthy lifespan. His path to aging research runs through both academia and industry: software engineering roles at <a href='https://www.ibm.com/us-en'>IBM</a> and <a href='https://www.lifen.fr/'>Lifen</a>, research positions at the <a href='https://www.broadinstitute.org/'>Broad Institute</a> and <a href='https://www.massgeneral.org/'>MGH</a>, the <a href='https://www.buckinstitute.org/'>Buck Institute for
+        Research on Aging</a>, and the <a href='https://www.unil.ch/unil/fr/home.html'>University of Lausanne</a>, and co-founding the Swiss longevity biotech <a href='https://www.biopole.ch/epiterna-raised-e10-million-to-help-everyone-live-longer-and-better/'>Epiterna</a>. Before joining IOR/USI he was a Junior Group Leader at <a href='https://www.charite.de/en/'>Charité</a> – Universitätsmedizin Berlin. He has published over 20 papers, and his work on drug repurposing for longevity has been covered by <a href='https://www.telegraph.co.uk/health-fitness/conditions/ageing/four-common-medicines-prolong-life/'>The Telegraph</a> and <a href='https://www.newscientist.com/article/2422860-these-four-common-medicines-could-help-prolong-your-life/'>New Scientist</a>.</p>
+
+        <h2 class="sec2">Research</h2>
+        <p>Kevin's research asks how we can intervene in aging to extend the healthy years of life. One major focus is drug repurposing: mining large human biobanks such as the UK Biobank to identify approved drugs associated with lower mortality, then testing the most promising candidates in model organisms from C. elegans to mice. A second focus is cellular rejuvenation and epigenetic reprogramming, including chemical approaches that reverse hallmarks of aging and the development of "aging clocks" that measure biological age from epigenetic and chromatin-accessibility data. A third applies single-cell and single-nuclei profiling to map how tissues age and how senescent cells accumulate, from skeletal muscle to whole-organism studies spanning humans and companion animals. Throughout, his work integrates RNA-seq, single-cell and ATAC-seq, proteomics, metabolomics, survival analysis, and deep learning to turn large biological datasets into testable strategies against age-related disease.</p>
+      </div>
+    </div>
+
+    <!-- FIGURES -->
+    <div class="figs">
+      <div class="figcell">
+        <div class="figcap">Screening platform for lifespan-extending drugs in model organisms</div>
+        <div class="frame"><a href='https://onlinelibrary.wiley.com/doi/full/10.1111/acel.14424'><img src="images/research-1-screening.png" alt="Screening platform for lifespan-extending drugs in model organisms"></a></div>
+      </div>
+      <div class="figcell">
+        <div class="figcap">Medications associated with longer lifespans in human biobanks</div>
+        <div class="frame"><a href='https://onlinelibrary.wiley.com/doi/full/10.1111/acel.14334'><img src="images/research-2-biobank.png" alt="Medications associated with longer lifespans in human biobanks"></a></div>
+      </div>
+      <div class="figcell">
+        <div class="figcap">Multi-omics studies in aging and sarcopenia, aging clocks</div>
+        <div class="frame"><a href='https://www.aging-us.com/article/204435/text'><img src="images/research-3-omics.png" alt="Multi-omics studies in aging and sarcopenia, aging clocks"></a></div>
+      </div>
+    </div>
+
+    <!-- RESEARCH HIGHLIGHTS -->
+    <h2 class="hl-h">Research highlights</h2>
+    <div class="hl">
+      <div>
+        <div class="cat">Aging clocks, multi-omics</div>
+        <ol class="refs">
+          <li><a href='https://onlinelibrary.wiley.com/doi/full/10.1111/acel.14438'>Perez et al.</a>, Aging Cell, 2025</li>
+          <li><a href='https://link.springer.com/article/10.1007/s11357-023-00986-0'>Morandini et al.</a>, GeroScience, 2024</li>
+          <li><a href='https://onlinelibrary.wiley.com/doi/full/10.1111/acel.14058'>Perez et al.</a>, Aging Cell, 2023</li>
+          <li><a href='https://www.aging-us.com/article/204435/text'>Perez et al.</a>, Aging, 2022</li>
+        </ol>
+      </div>
+      <div>
+        <div class="cat">Lifespan-extending drugs in model organisms</div>
+        <ol class="refs">
+          <!-- <li><a href=''>Perez et al.</a>, Cell Reports, 2026</li> -->
+          <li><a href='https://onlinelibrary.wiley.com/doi/full/10.1111/acel.14424'>Phelps et al.</a>, Aging Cell, 2025</li>
+        </ol>
+        <div class="cat grp2">Biobank aging studies</div>
+        <ol class="refs">
+          <!-- <li><a href=''>Perez et al.</a>, (in preparation)</li> -->
+          <li><a href='https://onlinelibrary.wiley.com/doi/full/10.1111/acel.14334'>Morin et al.</a>, Aging Cell, 2024</li>
+        </ol>
+      </div>
+      <div>
+        <div class="cat">Partial reprogramming</div>
+        <ol class="refs">
+          <li><a href='https://link.springer.com/article/10.1038/s44321-025-00265-9'>Schoenfeldt et al.</a>, EMBO Mol. Med., 2025</li>
+          <li><a href='https://www.nature.com/articles/s43587-023-00528-5'>Parras et al.</a>, Nature Aging, 2023</li>
+        </ol>
+      </div>
+    </div>
+
+    <!-- TALKS -->
+    <h2 class="blk-h">Talks</h2>
+    <div class="row talks">
+      <a href='https://www.youtube.com/watch?v=O5Ro-dL738I'><img src="images/talk-2.png" alt="Talk: medications with longevity effects"></a>
+      <a href='https://www.youtube.com/watch?v=UD6rtTKRF6Q'><img src="images/talk-1.png" alt="Talk on aging and longevity"></a>
+    </div>
+
+    <!-- PRESS -->
+    <h2 class="blk-h">Press</h2>
+    <div class="row press">
+      <a href='https://www.telegraph.co.uk/health-fitness/conditions/ageing/four-common-medicines-prolong-life/'><img class="tele" src="images/press-telegraph.png" alt="The Telegraph"></a>
+      <a href='https://sifted.eu/articles/prima-materia-longevity-epiterna-news'><img class="sift" src="images/press-sifted.png" alt="Sifted"></a>
+      <a href='https://www.newscientist.com/article/2422860-these-four-common-medicines-could-help-prolong-your-life/'><img class="ns" src="images/press-newscientist.png" alt="New Scientist"></a>
+      <a href='https://longevity.technology/news/swiss-longevity-company-epiterna-exits-stealth-to-tackle-aging/'><img class="lt" src="images/press-lt.jpeg" alt="LT"></a>
+      <a href='https://www.biopole.ch/story/how-repurposing-drugs-for-healthy-ageing-could-lengthen-lifespans/'><img class="bio" src="images/press-biopole.png" alt="LT"></a>
+    </div>
+    
+    <!-- FUNDING -->
+    <h2 class="blk-h">Funding</h2>
+    <div class="row funding">
+      <a href="https://www.snf.ch/en"><img class="snsf" src="images/funding-snsf.png" alt="Swiss National Science Foundation (SNSF)"></a>
+      <a href="https://ior.usi.ch/"><img class="ior" src="images/funding-ior.png" alt="Institute of Oncology Research (IOR)"></a>
+    </div>
+
+
+  </div>
+</body>
+</html>
